@@ -14,7 +14,8 @@ class _RecipesHomePageState extends State<RecipesHomePage> {
     Recipe("Chilaquiles", "assets/images/comida2.jpeg"),
     Recipe("Tacos dorados", "assets/images/comida3.jpeg"),
     Recipe("Maruchan con suadero", "assets/images/comida4.jpeg"),
-    Recipe("Taquitos de canasta", "assets/images/comida5.jpeg")
+    Recipe("Taquitos de canasta", "assets/images/comida5.jpeg"),
+    Recipe("Hamburguesa", "assets/images/comida6.jpeg")
   ];
 
   @override
