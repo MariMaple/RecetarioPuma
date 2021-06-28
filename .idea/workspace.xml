@@ -28,8 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d453221-31b3-4a31-9fed-3dcf886687cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recetario_app/lib/Pages/DetallesComida.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recetario_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/recetario_app/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DartProblemsView" auto-scroll-to-source="true" group-by-severity="false" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\maria\.android\avd\Nexus_6_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\maria\.android\avd\Pixel_4_API_30.avd]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,34 +118,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="468" y="499" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1624883094599" />
+    <state x="304" y="387" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624892108887">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="304" y="387" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1624892108887" />
     <state x="984" y="581" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624461008510">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="984" y="581" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1624461008510" />
-    <state x="165" y="287" width="1185" height="793" key="AVDManager" timestamp="1624884117818">
+    <state x="165" y="287" width="1185" height="793" key="AVDManager" timestamp="1624893372291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="165" y="287" width="1185" height="793" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1624884117818" />
+    <state x="165" y="287" width="1185" height="793" key="AVDManager/0.0.2560.1400@0.0.2560.1400" timestamp="1624893372291" />
     <state x="484" y="378" key="FileChooserDialogImpl" timestamp="1624461571527">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="484" y="378" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1624461571527" />
-    <state width="1222" height="247" key="GridCell.Tab.0.bottom" timestamp="1624885165473">
+    <state width="1359" height="247" key="GridCell.Tab.0.bottom" timestamp="1624899100325">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="247" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1624885165473" />
-    <state width="1222" height="247" key="GridCell.Tab.0.center" timestamp="1624885165473">
+    <state width="1359" height="247" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1624899100325" />
+    <state width="1359" height="247" key="GridCell.Tab.0.center" timestamp="1624899100325">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="247" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1624885165473" />
-    <state width="1222" height="247" key="GridCell.Tab.0.left" timestamp="1624885165473">
+    <state width="1359" height="247" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1624899100325" />
+    <state width="1359" height="247" key="GridCell.Tab.0.left" timestamp="1624899100325">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="247" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1624885165473" />
-    <state width="1222" height="247" key="GridCell.Tab.0.right" timestamp="1624885165473">
+    <state width="1359" height="247" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1624899100325" />
+    <state width="1359" height="247" key="GridCell.Tab.0.right" timestamp="1624899100325">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="247" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1624885165473" />
+    <state width="1359" height="247" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1624899100325" />
     <state x="134" y="241" key="SettingsEditor" timestamp="1624462183284">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

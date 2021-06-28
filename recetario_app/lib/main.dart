@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recetario/Pages/DetallesComida.dart';
 import 'package:recetario/Pages/RecipesHomePage.dart';
 
 import 'Utilities/Colors.dart';
@@ -17,7 +18,11 @@ class RecetarioPuma extends StatelessWidget {
         primaryColor: UNAM_Blue,
         accentColor: UNAM_Gold,
       ),
-      home: RecipesHomePage(),
+      initialRoute: 'RecipesHomePage',
+      routes: {
+        '/RecipesHomePage': (context) => RecipesHomePage(),
+        '/DetallesComida': (context, {args}) => DetallesComida(args),
+      },
     );
   }
 }

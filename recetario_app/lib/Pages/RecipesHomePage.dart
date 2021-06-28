@@ -1,7 +1,6 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:recetario/Model/Recipe.dart';
+import 'package:recetario/Pages/DetallesComida.dart';
 
 class RecipesHomePage extends StatefulWidget {
   RecipesHomePage({Key? key}) : super(key: key);
@@ -30,48 +29,28 @@ class _RecipesHomePageState extends State<RecipesHomePage> {
           child: ListView.builder(
             itemCount: muestras.length,
             itemBuilder: (BuildContext context, int index) {
-              return widgetRecipeCard(muestras[index]);
+              return widgetRecipeCard(context, muestras[index]);
             },
           ),
         ));
   }
 }
 
-Widget widgetRecipeCard(Recipe recipe) {
+Widget widgetRecipeCard(BuildContext context, recipe) {
   return Card(
     child: Column(
       children: <Widget>[
         Image(image: AssetImage(recipe.imageRecipe)),
-        FlatButton(
-          onPressed: () {
+        GestureDetector(
+          onTap: () {
             Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {},
-              ),
-            );
-            print('Receta seleccionada');
+                context,
+                MaterialPageRoute(
+                    builder: (context) => DetallesComida(recipe)));
           },
-          child: Text(recipe.title),
         ),
+        Text(recipe.title),
       ],
     ),
   );
-}
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-      appBar: AppBar(
-        title: Text("Recetario PUMA"),
-      ),
-      body: SafeArea(
-        child: ListView.builder(
-          itemCount: muestras.length,
-          itemBuilder: (BuildContext context, int index) {
-            return widgetRecipeCard(muestras[index]);
-          },
-        ),
-      ));
-}
 }
