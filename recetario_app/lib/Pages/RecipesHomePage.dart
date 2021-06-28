@@ -1,3 +1,5 @@
+import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:recetario/Model/Recipe.dart';
 
@@ -42,6 +44,12 @@ Widget widgetRecipeCard(Recipe recipe) {
         Image(image: AssetImage(recipe.imageRecipe)),
         FlatButton(
           onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {},
+              ),
+            );
             print('Receta seleccionada');
           },
           child: Text(recipe.title),
@@ -49,4 +57,21 @@ Widget widgetRecipeCard(Recipe recipe) {
       ],
     ),
   );
+}
+
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+      appBar: AppBar(
+        title: Text("Recetario PUMA"),
+      ),
+      body: SafeArea(
+        child: ListView.builder(
+          itemCount: muestras.length,
+          itemBuilder: (BuildContext context, int index) {
+            return widgetRecipeCard(muestras[index]);
+          },
+        ),
+      ));
+}
 }

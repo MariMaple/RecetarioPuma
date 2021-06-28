@@ -28,7 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d453221-31b3-4a31-9fed-3dcf886687cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RecetarioPuma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RecetarioPuma.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" afterDir="false" />
     </list>
@@ -142,5 +141,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="134" y="241" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1624462183284" />
+    <state x="212" y="330" key="run.anything.popup" timestamp="1624888242613">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="212" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1624888242613" />
   </component>
 </project>
