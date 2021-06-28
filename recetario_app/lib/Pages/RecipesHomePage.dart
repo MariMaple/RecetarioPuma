@@ -40,7 +40,12 @@ Widget widgetRecipeCard(Recipe recipe) {
     child: Column(
       children: <Widget>[
         Image(image: AssetImage(recipe.imageRecipe)),
-        Text(recipe.title),
+        FlatButton(
+          onPressed: () {
+            print('Receta seleccionada');
+          },
+          child: Text(recipe.title),
+        ),
       ],
     ),
   );
