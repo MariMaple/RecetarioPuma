@@ -18,7 +18,7 @@ class RecetarioPuma extends StatelessWidget {
         primaryColor: UNAM_Blue,
         accentColor: UNAM_Gold,
       ),
-      initialRoute: 'RecipesHomePage',
+      home: RecipesHomePage(),
       routes: {
         '/RecipesHomePage': (context) => RecipesHomePage(),
         '/DetallesComida': (context, {args}) => DetallesComida(args),
