@@ -38,6 +38,8 @@ class _RecipesHomePageState extends State<RecipesHomePage> {
 
 Widget widgetRecipeCard(BuildContext context, recipe) {
   return Card(
+    elevation: 5.0,
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
     child: Column(
       children: <Widget>[
         GestureDetector(
@@ -49,7 +51,10 @@ Widget widgetRecipeCard(BuildContext context, recipe) {
                     builder: (context) => DetallesComida(recipe)));
           },
         ),
-        Text(recipe.title),
+        Text(
+          recipe.title,
+          style: TextStyle(fontSize: 20),
+        ),
       ],
     ),
   );

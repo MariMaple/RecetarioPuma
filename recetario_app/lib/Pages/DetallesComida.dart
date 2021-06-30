@@ -15,7 +15,27 @@ class DetallesComida extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Image.asset(recipe.imageRecipe),
-            Text(recipe.title)
+            Text(
+              recipe.title,
+              style: TextStyle(fontSize: 18, color: Colors.black54),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(30.0),
+              child: Row(
+                children: [
+                  Center(
+                    child: Column(
+                      children: [
+                        Text(
+                          "Ingredientes:",
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
