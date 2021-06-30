@@ -41,7 +41,7 @@ Widget widgetRecipeCard(BuildContext context, recipe) {
     child: Column(
       children: <Widget>[
         GestureDetector(
-          child: Text(recipe.title),
+          child: Image(image: AssetImage(recipe.imageRecipe)),
           onTap: () {
             Navigator.push(
                 context,
@@ -49,7 +49,7 @@ Widget widgetRecipeCard(BuildContext context, recipe) {
                     builder: (context) => DetallesComida(recipe)));
           },
         ),
-        Image(image: AssetImage(recipe.imageRecipe)),
+        Text(recipe.title),
       ],
     ),
   );

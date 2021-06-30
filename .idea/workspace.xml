@@ -30,7 +30,6 @@
     <list default="true" id="3d453221-31b3-4a31-9fed-3dcf886687cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/recetario_app/lib/Pages/RecipesHomePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recetario_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/recetario_app/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
